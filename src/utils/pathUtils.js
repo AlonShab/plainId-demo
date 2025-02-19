@@ -1,5 +1,4 @@
 export const getComponentTranslationPath = (importMetaUrl) => {
-    // Convert import.meta.url to a file path
     let filePath = new URL(importMetaUrl).pathname;
 
     // Remove leading `/` on Unix-based systems
@@ -13,7 +12,7 @@ export const getComponentTranslationPath = (importMetaUrl) => {
         console.warn('⚠️ Could not determine component path:', filePath);
         return null;
     }
-    let relativePath = filePath.substring(srcIndex + 4); // Skip `src/`
+    let relativePath = filePath.substring(srcIndex + 4);
 
     // Remove file extension `.js` or `.jsx`
     relativePath = relativePath.replace(/\.[jt]sx?$/, '').split('/').slice(0, -1).join('/');

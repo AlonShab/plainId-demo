@@ -9,7 +9,7 @@ const ResourceHeaderText = styled(HeaderText)`
 `;
 
 export default function ResourcesHeader() {
-    const { t } = useLocalTranslation(import.meta.url, 'en-US');
+    const { t } = useLocalTranslation(import.meta.url);
 
     return (
         <>
