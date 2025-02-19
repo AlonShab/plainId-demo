@@ -1,0 +1,31 @@
+{
+  "name": "frontend-exercise-app-translation",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "i18next": "23.12.2",
+    "path": "^0.12.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-i18next": "^15.4.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "6.1.12"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "filemanager-webpack-plugin": "^8.0.0",
+    "react-app-rewired": "^2.2.1"
+  }
+}

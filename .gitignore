@@ -1,0 +1,43 @@
+# Ignore node modules
+node_modules/
+
+# Ignore package lock files
+package-lock.json
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore dependency overrides (if using a custom Webpack config)
+config-overrides.js
+
+# Ignore output from testing frameworks
+coverage/
+jest.config.js
+.vitest/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore public folder if dynamically generated
+public/
+
+# Ignore compiled TypeScript files (if using tsc)
+*.tsbuildinfo
