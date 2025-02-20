@@ -24,9 +24,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Ignore dependency overrides (if using a custom Webpack config)
-config-overrides.js
-
 # Ignore output from testing frameworks
 coverage/
 jest.config.js
