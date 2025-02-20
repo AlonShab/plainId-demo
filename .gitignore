@@ -34,7 +34,7 @@ jest.config.js
 Thumbs.db
 
 # Ignore public folder if dynamically generated
-public/
+public/locales
 
 # Ignore compiled TypeScript files (if using tsc)
 *.tsbuildinfo
